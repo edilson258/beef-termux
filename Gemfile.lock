@@ -114,6 +114,8 @@ GEM
     netrc (0.11.0)
     nokogiri (1.13.6-aarch64-linux)
       racc (~> 1.4)
+    nokogiri (1.13.6-x86_64-linux)
+      racc (~> 1.4)
     otr-activerecord (2.1.1)
       activerecord (>= 4.0, < 7.1)
       hashie-forbidden_attributes (~> 0.1)
@@ -135,7 +137,7 @@ GEM
       mojo_magick (~> 0.6.5)
       rqrcode_core (~> 0.1)
     racc (1.6.0)
-    rack (2.2.3)
+    rack (2.2.3.1)
     rack-protection (2.2.0)
       rack
     rack-test (1.1.0)
@@ -259,6 +261,7 @@ GEM
 
 PLATFORMS
   aarch64-linux-android
+  x86_64-linux
 
 DEPENDENCIES
   ansi
